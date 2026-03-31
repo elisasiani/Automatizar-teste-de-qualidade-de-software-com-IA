@@ -6,10 +6,14 @@ import '../widgets/mascote_widget.dart';
 import 'trilha_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+<<<<<<< HEAD
   // Recebe o nome do usuário vindo da tela de login
   final String nomeUsuario;
 
   const HomeScreen({super.key, this.nomeUsuario = 'Amiguinho'});
+=======
+  const HomeScreen({super.key});
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
 
   @override
   Widget build(BuildContext context) {
@@ -25,9 +29,15 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+<<<<<<< HEAD
                   // Saudação com o nome que veio do login
                   Text(
                     'Olá, $nomeUsuario! 👋',
+=======
+                  // Saudação personalizada
+                  const Text(
+                    'Olá, Amiguinho! 👋',
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
@@ -87,7 +97,11 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: const Color(0xFF7B2FBE),
       elevation: 0,
       title: const Text(
+<<<<<<< HEAD
         'Liri 🦒',
+=======
+        'FonoAmigo 🦒',
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
         style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,

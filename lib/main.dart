@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'screens/login_screen.dart'; // Agora começa pelo login!
+=======
+import 'screens/home_screen.dart';
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
 import 'models/user_progress.dart';
 import 'package:provider/provider.dart';
 
@@ -23,7 +27,11 @@ class FonoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       title: 'Liri',
+=======
+      title: 'FonoAmigo',
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // useMaterial3: usa os componentes mais modernos do Flutter
@@ -44,7 +52,11 @@ class FonoApp extends StatelessWidget {
         //         - asset: assets/fonts/Nunito-Bold.ttf
         //           weight: 700
       ),
+<<<<<<< HEAD
       home: const LoginScreen(), // Ponto de entrada: tela de login
+=======
+      home: const HomeScreen(),
+>>>>>>> 6ea929c48064e2c86cfcd258ad93838a7d5596fd
     );
   }
 }
